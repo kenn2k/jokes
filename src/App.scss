@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none; /* Убирает маркеры списка */
+  line-height: 1.5; /* Задает высоту строки для лучшего визуального восприятия */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #3d5f16;
+  font-family: "Exo 2", sans-serif;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: center; /* Используйте 'start' вместо 'center' для более естественного выравнивания */
+}
+
+.app {
+  h2 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}

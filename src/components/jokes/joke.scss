@@ -1,0 +1,33 @@
+.joke {
+  max-width: 980px;
+  margin: 0 auto;
+  background-color: #e0e9d8;
+  border-radius: 52px 52px 12px 12px;
+  font-weight: bold;
+  text-align: center;
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+.item {
+  padding: 2rem;
+  font-weight: bold;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    border: 2px solid #3d5f16;
+    border-radius: 6px;
+    padding: 2rem;
+  }
+  &__type {
+    p {
+      font-size: 1rem;
+    }
+  }
+}
